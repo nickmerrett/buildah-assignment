@@ -1,4 +1,4 @@
-FROM quay.io/repository/ibmgaragecloud/node
+FROM quay.io/ibmgaragecloud/node
 
 WORKDIR /usr/src/app
 
