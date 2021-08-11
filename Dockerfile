@@ -2,7 +2,7 @@ FROM quay.io/ibmgaragecloud/node:lts-stretch
 
 WORKDIR /usr/src/app
 
-COPY packages*.json ./
+COPY package*.json ./
 
 RUN npm ci
 
